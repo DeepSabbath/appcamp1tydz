@@ -19,7 +19,6 @@ class ItemsManager : NSObject {
     
     var items = [item]()
     
-    
     func addItem (name: String, details: String){
         items.append(item(name: name, details: details))
     }
