@@ -38,9 +38,34 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
 
     @IBAction func addItemButton(sender: UIButton) {
         
+        if (nameTextField.text.isEmpty)
+        {
+            displayAlert()
+        }
+        else
+        {
         itemsMgr.addItem(nameTextField.text, details: detailsTextField.text)
-        
+            nameTextField.text = ""
+            detailsTextField.text = ""
+        }
     }
- 
+    
+    
+    func displayAlert() {
+        let alert = UIAlertController(title: "Empty name", message: "You cannot save item", preferredStyle: UIAlertControllerStyle.Alert)
+        
+        alert.addAction(UIAlertAction(title: "Dimiss", style: UIAlertActionStyle.Default, handler: nil))
+        
+        self.presentViewController(alert, animated: true, completion: nil)
+    }
 }
+
+
+
+
+
+
+
+
+
 
