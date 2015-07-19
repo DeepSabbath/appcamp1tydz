@@ -14,6 +14,7 @@
 		0754D4531B5BC9F2000645CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0754D4521B5BC9F2000645CB /* Images.xcassets */; };
 		0754D4561B5BC9F2000645CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0754D4541B5BC9F2000645CB /* LaunchScreen.xib */; };
 		0754D4621B5BC9F2000645CB /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754D4611B5BC9F2000645CB /* ToDoListTests.swift */; };
+		0754D46C1B5BCFDF000645CB /* ItemsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0754D46B1B5BCFDF000645CB /* ItemsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0754D45B1B5BC9F2000645CB /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0754D4601B5BC9F2000645CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0754D4611B5BC9F2000645CB /* ToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTests.swift; sourceTree = "<group>"; };
+		0754D46B1B5BCFDF000645CB /* ItemsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				0754D44B1B5BC9F2000645CB /* FirstViewController.swift */,
 				0754D44D1B5BC9F2000645CB /* SecondViewController.swift */,
 				0754D44F1B5BC9F2000645CB /* Main.storyboard */,
+				0754D46B1B5BCFDF000645CB /* ItemsManager.swift */,
 				0754D4521B5BC9F2000645CB /* Images.xcassets */,
 				0754D4541B5BC9F2000645CB /* LaunchScreen.xib */,
 				0754D4471B5BC9F2000645CB /* Supporting Files */,
@@ -217,6 +220,7 @@
 			files = (
 				0754D44E1B5BC9F2000645CB /* SecondViewController.swift in Sources */,
 				0754D44A1B5BC9F2000645CB /* AppDelegate.swift in Sources */,
+				0754D46C1B5BCFDF000645CB /* ItemsManager.swift in Sources */,
 				0754D44C1B5BC9F2000645CB /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
